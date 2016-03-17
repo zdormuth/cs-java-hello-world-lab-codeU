@@ -5,4 +5,5 @@ out
 *.swp
 *.log
 .idea
+build.properties
 cs-hello-world-lab.iml
