@@ -10,7 +10,7 @@
 1. Install a recent Java runtime, if you haven't already. We recommend 1.8, but 1.7 will work, too.
   1. If you've been following along on Learn, we've walked you through installing Java (both the JRE and the JDK).
   2. But if you want to make sure, you can try running `java` or `javac` at your command line prompt. If it doesn't work, you probably don't have Java installed.
-2. In `com.flatironschool.javacs.HelloWorld`, we've provided a function `getVersion()`. It should print your system's current version of Java.
+2. In `com.flatironschool.javacs.HelloWorld`, we've provided a function `getVersion()`. It should return your system's current version of Java.
    1. We want not only to make this function work but also to make sure that it prints a version compatible with the upcoming lessons.
    2. You might find the following information useful:
       1. You can print information to stdout (usually, your console) with `System.out.println()`.
