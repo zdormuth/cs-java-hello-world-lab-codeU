@@ -19,3 +19,16 @@
       4. `Double.parseDouble()` converts a `String` to a `Double`.
 
 You can run `ant` or `learn-test` to test your results. Good luck!
+
+### Working in Eclipse
+
+If you would like to work on these labs in Eclipse, we recommend the following workflow:
+
+1.   Use a Git client to clone your repository to your file system.  We don't recommend importing directly from Git into Eclipse.
+2.   In Eclipse, select File -> New -> Project...
+3.   In the "Select a Wizard" dialog, select Java -> "Java Project from Exisiting Ant Build File".  Click "Next".
+4.   In the "Create a Project" dialog, give the new project a name, then click "Browse" and navigate to the `build.xml` file in the repository you just cloned.  IMPORTANT: Select "Link to the build file in the file system" to avoid copying the files from the repository into the Eclipse work space.  Then click "Finish".
+5.   In Eclipse, open the project you just created.  You should be able to run `HelloWorld.java` and `HelloWorldTest.java`.  You should also be able to select the project and run it as a JUnit test.
+6.   Once your program is working, go back to the cloned copy of the repository and run `learn-test`.
+7.   Add, commit, and push any files you changed back to your repository on GitHub.
+8.   When you go back to the Learn web interface, you should be able to "Run Local Tests" and "Submit Pull Request".
